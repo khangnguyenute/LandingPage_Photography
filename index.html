@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- MAIN -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <div class="nav__logo">
+          <a href="#">Market</a>
+          <div class="nav__menu" id="nav-menu">
+            <i class="fa fa-bars"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#">Refer</a></li>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Start Selling</a></li>
+          <li><button class="btn">Join</button></li>
+        </ul>
+      </nav>
+      <div class="section header__container">
+        <h1>
+          Find The<br />
+          Photographer
+        </h1>
+        <form>
+          <button class="btn"><i class="fa fa-search"></i></button>
+          <input type="text" placeholder="Search Photographer" />
+        </form>
+        <p>Design, Writing, Animation, Photography, Videos</p>
+      </div>
+    </header>
+
+    <!-- POPULAR -->
+    <section class="section popular__container">
+      <h2 class="section__title">Most Popular Gigs</h2>
+      <div class="popular__grid">
+        <div class="popular__card">
+          <img src="./assets/popular-1.jpg" alt="popular1" />
+          <p>CapturedMoments</p>
+          <h3>The Family Portrait Sessions</h3>
+          <div class="popular__content">
+            <span class="popular__rating">
+              <i class="fa fa-star"></i>
+              5.0 (549)
+            </span>
+            <p class="popular__price">Start from: <span>$150</span></p>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img src="./assets/popular-2.jpg" alt="popular2" />
+          <p>WanderlustLens</p>
+          <h3>Outdoor Adventure Shoot</h3>
+          <div class="popular__content">
+            <span class="popular__rating">
+              <i class="fa fa-star"></i>
+              4.9 (796)
+            </span>
+            <p class="popular__price">Start from: <span>$200</span></p>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img src="./assets/popular-3.jpg" alt="popular3" />
+          <p>UrbanFrames</p>
+          <h3>Cityscape Photography Tour</h3>
+          <div class="popular__content">
+            <span class="popular__rating">
+              <i class="fa fa-star"></i>
+              4.5 (490)
+            </span>
+            <p class="popular__price">Start from: <span>$250</span></p>
+          </div>
+        </div>
+        <div class="popular__card">
+          <img src="./assets/popular-1.jpg" alt="popular1" />
+          <p>WeddingWhispers</p>
+          <h3>Elegant Wedding Photography</h3>
+          <div class="popular__content">
+            <span class="popular__rating">
+              <i class="fa fa-star"></i>
+              4.8 (945)
+            </span>
+            <p class="popular__price">Start from: <span>$500</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TALENT -->
+    <section class="section talent__container">
+      <h2 class="section__title">All Talent In One Place</h2>
+      <div class="talent__grid">
+        <div class="talent__card">
+          <span><i class="fa fa-address-card"></i></span>
+          <h4>Portrait Photography</h4>
+          <p>
+            Mastery in capturing the essence and personality of individuals or
+            groups.
+          </p>
+        </div>
+        <div class="talent__card">
+          <span><i class="fa fa-image"></i></span>
+          <h4>Landscape Photography</h4>
+          <p>
+            Expertise in capturing scenic vistas, natural beauty, and
+            environments.
+          </p>
+        </div>
+        <div class="talent__card">
+          <span><i class="fab fa-pagelines"></i></span>
+          <h4>Wildlife Photography</h4>
+          <p>
+            Skill in capturing animals and their habitats in their natural
+            settings.
+          </p>
+        </div>
+        <div class="talent__card">
+          <span><i class="fa fa-search-plus"></i></span>
+          <h4>Macro Photography</h4>
+          <p>
+            Specialization in capturing extreme close-up images, often of small
+            subjects.
+          </p>
+        </div>
+        <div class="talent__card">
+          <span><i class="fa fa-calendar-alt"></i></span>
+          <h4>Event Photography</h4>
+          <p>
+            Proficiency in documenting events such as weddings, parties, and
+            corporate gatherings.
+          </p>
+        </div>
+        <div class="talent__card">
+          <span><i class="fa fa-tshirt"></i></span>
+          <h4>Fashion Photography</h4>
+          <p>
+            Talent in capturing clothing, accessories, and models for
+            advertising or editorial purposes.
+          </p>
+        </div>
+        <div class="talent__card">
+          <span><i class="fa fa-shopping-bag"></i></span>
+          <h4>Product Photography</h4>
+          <p>
+            Skill in photographing products for marketing, e-commerce, or
+            advertising purposes.
+          </p>
+        </div>
+        <div class="talent__card">
+          <span><i class="fa fa-utensils"></i></span>
+          <h4>Food Photography</h4>
+          <p>
+            Talent in capturing food and beverages in an appetizing and visually
+            appealing manner.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- REGISTER -->
+    <section class="section register__container">
+      <div class="register__grid">
+        <div class="register__content">
+          <h1>Register to start selling your services</h1>
+          <button class="btn">Get Started Now</button>
+        </div>
+        <div class="register__image">
+          <img src="./assets/register.png" alt="register" />
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEW -->
+    <section class="section review__container">
+      <h2 class="section__title">What Other Says</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="review__card">
+              <p>
+                CapturedMoments truly lives up to their name! Their expertise in
+                portrait photography is unmatched. As a business owner, having
+                professional headshots taken was a breeze, and the results
+                exceeded my expectations.
+              </p>
+              <div class="review__footer">
+                <div>
+                  <h4>BusinessPro</h4>
+                  <h5>Small Business Owner</h5>
+                </div>
+                <span><i class="fa fa-quote-right"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <p>
+                WanderlustLens made our outdoor adventure shoot an unforgettable
+                experience. Their creativity and passion for photography truly
+                shone through in every shot. I couldn't be happier with the
+                memories they captured.
+              </p>
+              <div class="review__footer">
+                <div>
+                  <h4>AdventureSeeker</h4>
+                  <h5>Outdoor Enthusiast</h5>
+                </div>
+                <span><i class="fa fa-quote-right"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <p>
+                UrbanFrames captured the essence of the city like no other.
+                Their cityscape photography tour was not only informative but
+                also incredibly inspiring. I'm grateful for the stunning images
+                I now have to remember my trip by.
+              </p>
+              <div class="review__footer">
+                <div>
+                  <h4>CityExplorer</h4>
+                  <h5>Travel Blogger</h5>
+                </div>
+                <span><i class="fa fa-quote-right"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <p>
+                WeddingWhispers turned our special day into timeless memories.
+                Their attention to detail and ability to capture the emotions of
+                the moment were truly remarkable. I'm grateful for the stunning
+                photographs we'll cherish for a lifetime.
+              </p>
+              <div class="review__footer">
+                <div>
+                  <h4>HappilyEverAfter</h4>
+                  <h5>Newlywed</h5>
+                </div>
+                <span><i class="fa fa-quote-right"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="section footer__container">
+        <div class="footer__col">
+          <h4>ABOUT</h4>
+          <ul class="footer__links">
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press & News</a></li>
+            <li><a href="#">Partnership</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>SUPPORT</h4>
+          <ul class="footer__links">
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Trust & Safety</a></li>
+            <li><a href="#">Selling To Us</a></li>
+            <li><a href="#">Buying From Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>COMMUNITY</h4>
+          <ul class="footer__links">
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Invite a Friend</a></li>
+            <li><a href="#">Become a Seller</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CATEGORY</h4>
+          <ul class="footer__links">
+            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Website Design</a></li>
+            <li><a href="#">Digital Marketing</a></li>
+            <li><a href="#">Video & Animation</a></li>
+            <li><a href="#">UI/UX Design</a></li>
+            <li><a href="#">Music & Audio</a></li>
+            <li><a href="#">Programme & Tech</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>BROWSE</h4>
+          <ul class="footer__links">
+            <li><a href="#">Freelancers by Skills</a></li>
+            <li><a href="#">Freelancers in USA</a></li>
+            <li><a href="#">Freelancers in UK</a></li>
+            <li><a href="#">Freelancers in Canada</a></li>
+            <li><a href="#">Australia</a></li>
+            <li><a href="#">Jobs in USA</a></li>
+            <li><a href="#">Find Jobs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyRight">
+        <p>Copyright &copy; 2024 Web Design Mastery. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- SWIPER -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN -->
+    <script src="./index.js"></script>
+  </body>
+</html>
